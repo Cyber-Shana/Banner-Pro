@@ -1,4 +1,4 @@
-import os ,shutil ,time
+import os , shutil , time
 from time import sleep
 os.system ("clear")
 print("""
@@ -47,7 +47,7 @@ def move_f():
 		if os.path.exists("/data/data/com.termux/files/usr/etc/zshrc"):
 			os.remove("/data/data/com.termux/files/usr/etc/zshrc")
 			
-		shutil.move("zshrc" , "/data/data/com.termux/files/usr/etc")
+		shutil.move("zshrc","/data/data/com.termux/files/usr/etc")
 		print("033[32m DONE....\033[0m]")
 			
 cho = int(input("➣ Choice :-  "))
