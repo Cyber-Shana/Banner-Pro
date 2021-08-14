@@ -44,7 +44,7 @@ def neo():
 		zsh.write(text2)
 		
 def move_f():
-		if os.path.exists("/data/data/com.termux/files/usr/etc/zshrc"):
+		if os.path.exists("/data/data/com.termux/files/usr/etc/zshrc")
 			os.remove("/data/data/com.termux/files/usr/etc/zshrc")
 			
 		shutil.move("zshrc","/data/data/com.termux/files/usr/etc")
