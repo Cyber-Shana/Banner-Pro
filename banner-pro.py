@@ -39,7 +39,7 @@ def evil():
 		zsh.write(text2)
 	
 def neo():
-	name = str("input(Enter name :- "))
+	name = str(input("Enter name :- "))
 	text1 = "neofetch"
 	text2 = ("\nfiglet"+name+"|lolcat -a --speed=80")
 		with open("zshrc","w") as zsh : 
